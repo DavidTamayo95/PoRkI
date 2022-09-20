@@ -211,7 +211,7 @@ def onmessage(update,bot:ObigramClient):
         #tl_admin_user = os.environ.get('tl_admin_user')
 
         #set in debug
-        tl_admin_user = 'studio_apps_dev'
+        tl_admin_user = 'David_7amayo'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -228,7 +228,7 @@ def onmessage(update,bot:ObigramClient):
                 user_info = jdb.get_user(username)
                 jdb.save()
         else:
-            mensaje = "No tienes acceso.\n👨🏻‍💻Dev: @studio_apps_dev\n"
+            mensaje = "No tienes acceso.\n👨🏻‍💻Dev: @David_7amayo\n"
             intento_msg = "💢El usuario @"+username+ "💢"
             bot.sendMessage(update.message.chat.id,mensaje)
             bot.sendMessage(2055672924,intento_msg)
@@ -239,7 +239,7 @@ def onmessage(update,bot:ObigramClient):
         except:pass
 
         # comandos de admin
-        if '/add' in msgText:
+        if '/adduser' in msgText:
             isadmin = jdb.is_admin(username)
             if isadmin:
                 try:
@@ -253,7 +253,7 @@ def onmessage(update,bot:ObigramClient):
             else:
                 bot.sendMessage(update.message.chat.id,'👮You do not have administrator permissions👮')
             return
-        if '/ban' in msgText:
+        if '/banuser' in msgText:
             isadmin = jdb.is_admin(username)
             if isadmin:
                 try:
@@ -288,7 +288,7 @@ def onmessage(update,bot:ObigramClient):
             bot.sendMessage(update.message.chat.id,tuto.read())
             tuto.close()
             return
-        if '/myuser' in msgText:
+        if '/info' in msgText:
             getUser = user_info
             if getUser:
                 statInfo = infos.createStat(username,getUser,jdb.is_admin(username))
@@ -307,7 +307,7 @@ def onmessage(update,bot:ObigramClient):
                 except:
                    bot.sendMessage(update.message.chat.id,'⚠️Command error /zips zips_size⚠️')    
                 return
-        if '/acc' in msgText:
+        if '/account' in msgText:
             try:
                 account = str(msgText).split(' ',2)[1].split(',')
                 user = account[0]
@@ -481,7 +481,7 @@ def onmessage(update,bot:ObigramClient):
   
 
 def main():
-    bot_token = '5220749331:AAGN3jVAz52epm9nEc5gei0riY-DKqRvdbs'
+    bot_token = '5751430858:AAG3YRPSv1YYb3WCWi0FDyQ5YX37DvMUiE0'
     
 
     bot = ObigramClient(bot_token)
