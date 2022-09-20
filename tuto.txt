@@ -1,0 +1,60 @@
+◆ ------- {✬} ------- ◆
+
+/about > Comando para ver información sobre el bot.
+
+/commands > Comando para añadir menú de acceso rápido a su bot.
+
+/admin > Comando para añadir acceso de administrador del bot a un usuario.
+
+/add > Comando para añadir acceso de usuario al bot.
+
+/preview > Comando para añadir un usuario al bot en modo prueba: no puede hacer ni subir nada, solamente observar el bot.
+
+/ban > Comando para banear/quitar acceso completamente sobre el bot a un usuario.
+
+/useradm > Comando para saber si es admin o usuario del bot y su poder sobre el mismo.
+
+/myuser > Comando para echarle un vistazo a la configuración actual.
+
+/acc > Comando para configurar Usuario y Contraseña.
+
+/host > Comando para establecer el Host del moodle o la nube.
+
+/token > Comando para mostrar el token de la cuenta moodle actual.
+
+/zips > Comando para establecer el tamaño maximo por archivos.
+
+/repo > Comando para configurar el Repo ID del host
+
+/cloud > Comando para cambiar de modo de nube (moodle o cloud) predeterminada mente está en modo moodle.
+
+/dir > Comando para establecer a que carpeta de la nube se subira.
+
+/uptype > Comando para configurar que tipo de subida a moodle.
+
+/files > Comando para ver los archivos dentro de la nube.
+
+/txt_ > Comando para descargar archivo correspondiente con el número que le sigue.
+
+/del_ > Comando para eliminar de la nube un archivo correspondiente con el número que le sigue.
+
+/delete > Elimina completamente el archivo de la nube
+
+/proxy > Comando para establecer proxy en el bot.
+
+/off_proxy > Comando para deseuipar el proxy actual del bot.
+
+/cript > Comando para encriptar su proxy sino lo está.
+
+/decript > Comando para desencriptar el proxy si lo está. 
+
+/view_proxy > Comando para ver el proxy establecido actualmente.
+
+/encript_on > Configurar para activar encriptado no disponible en los enlaces de descarga.
+
+/encript_off > Configurar para desactivar encriptado.
+
+/help > Comando para mostrar la ayuda disponible del Bot.
+
+
+◆ ------- {✬} ------- ◆

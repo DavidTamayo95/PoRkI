@@ -1,0 +1,16 @@
+INFORMACIÓN
+________________(✪)________________
+📦Versión 1.3.7 Release (2022/6/25)
+
+/posgrado
+/aulacened
+/uclv
+/eva
+/cursos
+/eduvirtual
+________________(✪)________________
+/ismm
+/uvs
+
+Para eliminar archivos es /delete y el link al lado
+/delete Url
